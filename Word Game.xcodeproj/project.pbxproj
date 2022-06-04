@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4078177282D3CF9001B0A50 /* Worlds_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4078176282D3CF9001B0A50 /* Worlds_GameApp.swift */; };
+		F4078179282D3CF9001B0A50 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4078178282D3CF9001B0A50 /* StartView.swift */; };
+		F407817B282D3CF9001B0A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F407817A282D3CF9001B0A50 /* Assets.xcassets */; };
+		F407817E282D3CF9001B0A50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F407817D282D3CF9001B0A50 /* Preview Assets.xcassets */; };
+		F4078188282D3CF9001B0A50 /* Worlds_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4078187282D3CF9001B0A50 /* Worlds_GameTests.swift */; };
+		F4078192282D3CF9001B0A50 /* Worlds_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4078191282D3CF9001B0A50 /* Worlds_GameUITests.swift */; };
+		F4078194282D3CF9001B0A50 /* Worlds_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4078193282D3CF9001B0A50 /* Worlds_GameUITestsLaunchTests.swift */; };
+		F40781A2282D577B001B0A50 /* TitelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40781A1282D577B001B0A50 /* TitelText.swift */; };
+		F40781A7282D6275001B0A50 /* WordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40781A6282D6275001B0A50 /* WordTextField.swift */; };
+		F40781A9282D6B82001B0A50 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40781A8282D6B82001B0A50 /* GameView.swift */; };
+		F47C1B32282ED8CE0060D3BE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C1B31282ED8CE0060D3BE /* Player.swift */; };
+		F47C1B35282EDA130060D3BE /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C1B34282EDA130060D3BE /* GameViewModel.swift */; };
+		F49EA9572830454B00560B93 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EA9562830454B00560B93 /* WordCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4078184282D3CF9001B0A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F407816B282D3CF9001B0A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4078172282D3CF9001B0A50;
+			remoteInfo = "Worlds Game";
+		};
+		F407818E282D3CF9001B0A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F407816B282D3CF9001B0A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4078172282D3CF9001B0A50;
+			remoteInfo = "Worlds Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4078173282D3CF9001B0A50 /* Word Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4078176282D3CF9001B0A50 /* Worlds_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worlds_GameApp.swift; sourceTree = "<group>"; };
+		F4078178282D3CF9001B0A50 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		F407817A282D3CF9001B0A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F407817D282D3CF9001B0A50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4078183282D3CF9001B0A50 /* Word GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4078187282D3CF9001B0A50 /* Worlds_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worlds_GameTests.swift; sourceTree = "<group>"; };
+		F407818D282D3CF9001B0A50 /* Word GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4078191282D3CF9001B0A50 /* Worlds_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worlds_GameUITests.swift; sourceTree = "<group>"; };
+		F4078193282D3CF9001B0A50 /* Worlds_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worlds_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F40781A1282D577B001B0A50 /* TitelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitelText.swift; sourceTree = "<group>"; };
+		F40781A6282D6275001B0A50 /* WordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTextField.swift; sourceTree = "<group>"; };
+		F40781A8282D6B82001B0A50 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F47C1B31282ED8CE0060D3BE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F47C1B34282EDA130060D3BE /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		F49EA9562830454B00560B93 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4078170282D3CF9001B0A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4078180282D3CF9001B0A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F407818A282D3CF9001B0A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F407816A282D3CF9001B0A50 = {
+			isa = PBXGroup;
+			children = (
+				F4078175282D3CF9001B0A50 /* Worlds Game */,
+				F4078186282D3CF9001B0A50 /* Worlds GameTests */,
+				F4078190282D3CF9001B0A50 /* Worlds GameUITests */,
+				F4078174282D3CF9001B0A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4078174282D3CF9001B0A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4078173282D3CF9001B0A50 /* Word Game.app */,
+				F4078183282D3CF9001B0A50 /* Word GameTests.xctest */,
+				F407818D282D3CF9001B0A50 /* Word GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4078175282D3CF9001B0A50 /* Worlds Game */ = {
+			isa = PBXGroup;
+			children = (
+				F4078176282D3CF9001B0A50 /* Worlds_GameApp.swift */,
+				F47C1B33282ED9E10060D3BE /* Model */,
+				F47C1B36282EE41C0060D3BE /* ViewModel */,
+				F40781AA282D6BDB001B0A50 /* Views */,
+				F40781A0282D5740001B0A50 /* Components */,
+				F407817A282D3CF9001B0A50 /* Assets.xcassets */,
+				F407817C282D3CF9001B0A50 /* Preview Content */,
+			);
+			path = "Worlds Game";
+			sourceTree = "<group>";
+		};
+		F407817C282D3CF9001B0A50 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F407817D282D3CF9001B0A50 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4078186282D3CF9001B0A50 /* Worlds GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4078187282D3CF9001B0A50 /* Worlds_GameTests.swift */,
+			);
+			path = "Worlds GameTests";
+			sourceTree = "<group>";
+		};
+		F4078190282D3CF9001B0A50 /* Worlds GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4078191282D3CF9001B0A50 /* Worlds_GameUITests.swift */,
+				F4078193282D3CF9001B0A50 /* Worlds_GameUITestsLaunchTests.swift */,
+			);
+			path = "Worlds GameUITests";
+			sourceTree = "<group>";
+		};
+		F40781A0282D5740001B0A50 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F40781A1282D577B001B0A50 /* TitelText.swift */,
+				F40781A6282D6275001B0A50 /* WordTextField.swift */,
+				F49EA9562830454B00560B93 /* WordCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F40781AA282D6BDB001B0A50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4078178282D3CF9001B0A50 /* StartView.swift */,
+				F40781A8282D6B82001B0A50 /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F47C1B33282ED9E10060D3BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F47C1B31282ED8CE0060D3BE /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F47C1B36282EE41C0060D3BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F47C1B34282EDA130060D3BE /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4078172282D3CF9001B0A50 /* Word Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4078197282D3CF9001B0A50 /* Build configuration list for PBXNativeTarget "Word Game" */;
+			buildPhases = (
+				F407816F282D3CF9001B0A50 /* Sources */,
+				F4078170282D3CF9001B0A50 /* Frameworks */,
+				F4078171282D3CF9001B0A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word Game";
+			productName = "Worlds Game";
+			productReference = F4078173282D3CF9001B0A50 /* Word Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4078182282D3CF9001B0A50 /* Word GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F407819A282D3CF9001B0A50 /* Build configuration list for PBXNativeTarget "Word GameTests" */;
+			buildPhases = (
+				F407817F282D3CF9001B0A50 /* Sources */,
+				F4078180282D3CF9001B0A50 /* Frameworks */,
+				F4078181282D3CF9001B0A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4078185282D3CF9001B0A50 /* PBXTargetDependency */,
+			);
+			name = "Word GameTests";
+			productName = "Worlds GameTests";
+			productReference = F4078183282D3CF9001B0A50 /* Word GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F407818C282D3CF9001B0A50 /* Word GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F407819D282D3CF9001B0A50 /* Build configuration list for PBXNativeTarget "Word GameUITests" */;
+			buildPhases = (
+				F4078189282D3CF9001B0A50 /* Sources */,
+				F407818A282D3CF9001B0A50 /* Frameworks */,
+				F407818B282D3CF9001B0A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F407818F282D3CF9001B0A50 /* PBXTargetDependency */,
+			);
+			name = "Word GameUITests";
+			productName = "Worlds GameUITests";
+			productReference = F407818D282D3CF9001B0A50 /* Word GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F407816B282D3CF9001B0A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F4078172282D3CF9001B0A50 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F4078182282D3CF9001B0A50 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F4078172282D3CF9001B0A50;
+					};
+					F407818C282D3CF9001B0A50 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F4078172282D3CF9001B0A50;
+					};
+				};
+			};
+			buildConfigurationList = F407816E282D3CF9001B0A50 /* Build configuration list for PBXProject "Word Game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F407816A282D3CF9001B0A50;
+			productRefGroup = F4078174282D3CF9001B0A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4078172282D3CF9001B0A50 /* Word Game */,
+				F4078182282D3CF9001B0A50 /* Word GameTests */,
+				F407818C282D3CF9001B0A50 /* Word GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4078171282D3CF9001B0A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F407817E282D3CF9001B0A50 /* Preview Assets.xcassets in Resources */,
+				F407817B282D3CF9001B0A50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4078181282D3CF9001B0A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F407818B282D3CF9001B0A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F407816F282D3CF9001B0A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4078179282D3CF9001B0A50 /* StartView.swift in Sources */,
+				F4078177282D3CF9001B0A50 /* Worlds_GameApp.swift in Sources */,
+				F40781A2282D577B001B0A50 /* TitelText.swift in Sources */,
+				F40781A7282D6275001B0A50 /* WordTextField.swift in Sources */,
+				F47C1B32282ED8CE0060D3BE /* Player.swift in Sources */,
+				F49EA9572830454B00560B93 /* WordCell.swift in Sources */,
+				F40781A9282D6B82001B0A50 /* GameView.swift in Sources */,
+				F47C1B35282EDA130060D3BE /* GameViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F407817F282D3CF9001B0A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4078188282D3CF9001B0A50 /* Worlds_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4078189282D3CF9001B0A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4078192282D3CF9001B0A50 /* Worlds_GameUITests.swift in Sources */,
+				F4078194282D3CF9001B0A50 /* Worlds_GameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4078185282D3CF9001B0A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4078172282D3CF9001B0A50 /* Word Game */;
+			targetProxy = F4078184282D3CF9001B0A50 /* PBXContainerItemProxy */;
+		};
+		F407818F282D3CF9001B0A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4078172282D3CF9001B0A50 /* Word Game */;
+			targetProxy = F407818E282D3CF9001B0A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4078195282D3CF9001B0A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4078196282D3CF9001B0A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4078198282D3CF9001B0A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Worlds Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "QW.Worlds-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4078199282D3CF9001B0A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Worlds Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "QW.Worlds-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F407819B282D3CF9001B0A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "QW.Worlds-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Game.app/Word Game";
+			};
+			name = Debug;
+		};
+		F407819C282D3CF9001B0A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "QW.Worlds-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Game.app/Word Game";
+			};
+			name = Release;
+		};
+		F407819E282D3CF9001B0A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "QW.Worlds-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Worlds Game";
+			};
+			name = Debug;
+		};
+		F407819F282D3CF9001B0A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "QW.Worlds-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Worlds Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F407816E282D3CF9001B0A50 /* Build configuration list for PBXProject "Word Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4078195282D3CF9001B0A50 /* Debug */,
+				F4078196282D3CF9001B0A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4078197282D3CF9001B0A50 /* Build configuration list for PBXNativeTarget "Word Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4078198282D3CF9001B0A50 /* Debug */,
+				F4078199282D3CF9001B0A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F407819A282D3CF9001B0A50 /* Build configuration list for PBXNativeTarget "Word GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F407819B282D3CF9001B0A50 /* Debug */,
+				F407819C282D3CF9001B0A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F407819D282D3CF9001B0A50 /* Build configuration list for PBXNativeTarget "Word GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F407819E282D3CF9001B0A50 /* Debug */,
+				F407819F282D3CF9001B0A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F407816B282D3CF9001B0A50 /* Project object */;
+}
